@@ -13,21 +13,20 @@
     <body>
         <div class="container">
 
-            <h1>Voice Controlled Notes App</h1>
-            <p class="page-description">A tiny app that allows you to take notes by recording your voice</p>
-            <p><a class="tz-link" href="https://tutorialzine.com/2017/08/converting-from-speech-to-text-with-javascript">Read the full article on Tutorialzine »</a></p>
+            <h1>Okay Google / Alexa</h1>
+            <p class="page-description">And see the Magic</p>
 
             <h3 class="no-browser-support">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
 
             <div class="app"> 
-                <h3>Add New Note</h3>
+                <h3>Give a Command</h3>
                 <div class="input-single">
-                    <textarea id="note-textarea" placeholder="Create a new note by typing or using voice recognition." rows="6"></textarea>
+                    <textarea id="note-textarea" placeholder="Give a new command by typing or using voice recognition." rows="1"></textarea>
                 </div>         
-                <button id="start-record-btn" title="Start Recording">Start Recognition</button>
-                <button id="pause-record-btn" title="Pause Recording">Pause Recognition</button>
-                <button id="save-note-btn" title="Save Note">Save Note</button>   
-                <p id="recording-instructions">Press the <strong>Start Recognition</strong> button and allow access.</p>
+                <button id="start-record-btn" title="Start Recording">OK Google / Alexa</button>
+                <button id="pause-record-btn" title="Pause Recording">Command Over</button>
+                
+                <p id="recording-instructions">Press the <strong>OK Google / Alexa</strong> button and allow access.</p>
                 
                 <h3>My Notes</h3>
                 <ul id="notes">
@@ -43,8 +42,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="script.js"></script>
 
-        <!-- Only used for the demos ads. Please ignore and remove. --> 
-        <script src="https://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
+       
 
     </body>
 </html>
