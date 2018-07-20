@@ -50,12 +50,12 @@ recognition.onresult = function(event) {
     noteContent += transcript;
     noteTextarea.val(noteContent);
   }
-	if(transcript.includes("red"))
-	   alert("Red");
-	if(transcript.includes("blue"))
-	   alert("Blue");
-	if(transcript.includes("green"))
-	   alert("Green");
+// 	if(transcript.includes("red"))
+// 	   alert("Red");
+// 	if(transcript.includes("blue"))
+// 	   alert("Blue");
+// 	if(transcript.includes("green"))
+// 	   alert("Green");
 };
 
 
