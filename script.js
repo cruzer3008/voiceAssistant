@@ -57,24 +57,23 @@ preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.i
     noteTextarea.val(noteContent);
   }
 	if(transcript.includes("red"))
-	   alert("Red"); 
+	$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/redBulb.png");
 	if(transcript.includes("blue"))
 		$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/rightback.png");
 	if(transcript.includes("green"))
-	   alert("Green");
+		$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/greenBulb.png");
 	if(transcript.includes("yellow"))
 		$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/leftback.png");
 	if(transcript.includes("turn on"))
-	   alert("Switched On");
+	   	$("#bulbPhoto").attr("src","https://www.wink.com/img/product/philips-hue-lighting/variants/046677426361/hero_01.png");
+
 	if(transcript.includes("switch on"))
-	   alert("Switched On");
+	   $("#bulbPhoto").attr("src","https://www.wink.com/img/product/philips-hue-lighting/variants/046677426361/hero_01.png");
 	if(transcript.includes("turn off"))
-	   alert("Switched Off");
+	   $("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/productfront.png");
+
 	if(transcript.includes("switch off"))
-	   alert("Switched Off");
-	
-	if(transcript.includes("orange"))
-	   alert("Orange");
+	$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/productfront.png");
 	if(transcript.includes("dim"))
 	   alert("Dimmed");
 	
