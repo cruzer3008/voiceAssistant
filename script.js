@@ -59,11 +59,11 @@ preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.i
 	if(transcript.includes("red"))
 	   alert("Red"); 
 	if(transcript.includes("blue"))
-	   document.getElementById("bulbPhoto").src = url("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/rightback.png");
+		document.getElementById("bulbPhoto").content = url("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/rightback.png");
 	if(transcript.includes("green"))
 	   alert("Green");
 	if(transcript.includes("yellow"))
-	   	   document.getElementById("bulbPhoto").src = url("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/leftback.png");
+		document.getElementById("bulbPhoto").content = url("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/leftback.png");
 	
 	if(transcript.includes("turn on"))
 	   alert("Switched On");
