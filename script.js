@@ -58,14 +58,12 @@ preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.i
   }
 	if(transcript.includes("red"))
 	   alert("Red"); 
-	if(transcript.includes("blue")){
-				$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/rightback.png");
-
+	if(transcript.includes("blue"))
+		$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/rightback.png");
 	if(transcript.includes("green"))
 	   alert("Green");
-	if(transcript.includes("yellow")){
+	if(transcript.includes("yellow"))
 		$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/leftback.png");
-	}
 	if(transcript.includes("turn on"))
 	   alert("Switched On");
 	if(transcript.includes("switch on"))
