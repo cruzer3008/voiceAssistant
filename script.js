@@ -45,7 +45,13 @@ recognition.onresult = function(event) {
   // There is a weird bug on mobile, where everything is repeated twice.
   // There is no official solution so far so we have to handle an edge case.
   var mobileRepeatBug = (current == 1 && transcript == event.results[0][0].transcript);
-
+function preloadImage(url)
+{
+    var img=new Image();
+    img.src=url;
+}
+preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/rightback.png");
+preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/leftback.png");
   if(!mobileRepeatBug) {
     noteContent += transcript;
     noteTextarea.val(noteContent);
