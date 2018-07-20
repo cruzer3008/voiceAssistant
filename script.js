@@ -16,8 +16,8 @@ var notesList = $('ul#notes');
 var noteContent = '';
 
 // Get all notes from previous sessions and display them.
-var notes = getAllNotes();
-renderNotes(notes);
+// var notes = getAllNotes();
+// renderNotes(notes);
 
 
 
@@ -50,7 +50,15 @@ recognition.onresult = function(event) {
     noteContent += transcript;
     noteTextarea.val(noteContent);
   }
+	if(transcript.includes("red"))
+	   alert("Red");
+	if(transcript.includes("blue"))
+	   alert("Blue");
+	if(transcript.includes("green"))
+	   alert("Green");
 };
+
+
 
 recognition.onstart = function() { 
   instructions.text('Voice recognition activated. Try speaking into the microphone.');
