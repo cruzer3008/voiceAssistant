@@ -76,7 +76,7 @@ preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.i
 	
 	if(transcript.includes("orange"))
 	   alert("Orange");
-	if(noteTextarea.includes("dim"))
+	if(transcript.includes("dim"))
 	   alert("Dimmed");
 	
 };
