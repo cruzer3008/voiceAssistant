@@ -67,7 +67,7 @@ preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.i
 	if(transcript.includes("yellow")){
 		var yellowBulb = document.getElementById("bulbPhoto");
 		yellowBulb.src = url("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/leftback.png");
-	
+	}
 	if(transcript.includes("turn on"))
 	   alert("Switched On");
 	if(transcript.includes("switch on"))
