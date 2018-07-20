@@ -50,12 +50,23 @@ recognition.onresult = function(event) {
     noteContent += transcript;
     noteTextarea.val(noteContent);
   }
-// 	if(transcript.includes("red"))
-// 	   alert("Red");
-// 	if(transcript.includes("blue"))
-// 	   alert("Blue");
-// 	if(transcript.includes("green"))
-// 	   alert("Green");
+	if(transcript.includes("red"))
+	   alert("Red");
+	if(transcript.includes("blue"))
+	   alert("Blue");
+	if(transcript.includes("green"))
+	   alert("Green");
+	if(transcript.includes("white"))
+	   alert("White");
+	if(transcript.includes("on")||transcript.includes("switch on")||transcript.includes("turn on"))
+	   alert("Switched On");
+	if(transcript.includes("off")||transcript.includes("switch off")||transcript.includes("turn off"))
+	   alert("Switched Off");
+	if(transcript.includes("orange"))
+	   alert("Orange");
+	if(transcript.includes("dim"))
+	   alert("Dimmed");
+	
 };
 
 
