@@ -2,42 +2,49 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Voice Controlled Notes App</title>
+        <title>Demo</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
 
     </head>
     <body>
-        <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="container">
 
-            <h1>Okay Google / Alexa</h1>
-            <p class="page-description">And see the Magic</p>
+                    <h1>Okay Google / Alexa</h1>
+                    <p class="page-description">And see the Magic</p>
 
-            <h3 class="no-browser-support">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
+                    <h3 class="no-browser-support">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
 
-            <div class="app"> 
-                <h3>Give a Command</h3>
-                <div class="input-single">
-                    <textarea id="note-textarea" placeholder="Give a new command by typing or using voice recognition." rows="1"></textarea>
-                </div>         
-                <button id="start-record-btn" title="Start Recording">OK Google / Alexa</button>
-                <button id="pause-record-btn" title="Pause Recording">Command Over</button>
+                    <div class="app"> 
+                        <h3>Give a Command</h3>
+                        <div class="input-single">
+                        <textarea id="note-textarea" placeholder="Give a new command by typing or using voice recognition." rows="1"></textarea>
+                    </div>         
+                    <button id="start-record-btn" title="Start Recording">OK Google / Alexa</button>
+                    <button id="pause-record-btn" title="Pause Recording">Command Over</button>
                 
-                <p id="recording-instructions">Press the <strong>OK Google / Alexa</strong> button and allow access.</p>
+                    <p id="recording-instructions">Press the <strong>OK Google / Alexa</strong> button and allow access.</p>
                 
-                <h3>My Notes</h3>
-                <ul id="notes">
-                    <li>
-                        <p class="no-notes">You don't have any notes.</p>
-                    </li>
-                </ul>
-
+                    <h3>My Notes</h3>
+                    <ul id="notes">
+                        <li>
+                            <p class="no-notes">You don't have any notes.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
+            <div class="col-sm-6">
+                <img src="https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/productfront.png">
+            </div>
         </div>
+  
+        
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="script.js"></script>
@@ -46,5 +53,3 @@
 
     </body>
 </html>
-
-
