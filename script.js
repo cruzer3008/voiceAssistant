@@ -50,6 +50,11 @@ function preloadImage(url)
     var img=new Image();
     img.src=url;
 }
+function clearTranscript(){
+	transcript = ' ';
+}
+	
+	
 preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/rightback.png");
 preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/leftback.png");
   if(!mobileRepeatBug) {
