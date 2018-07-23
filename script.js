@@ -51,7 +51,7 @@ function preloadImage(url)
     img.src=url;
 }
 function clearTranscript(){
-	transcript = "";
+	noteContent = "";
 }
 	
 	
