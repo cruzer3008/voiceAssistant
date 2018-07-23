@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
@@ -9,6 +10,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ajax-bootstrap-select/1.4.4/css/ajax-bootstrap-select.css"></script>
@@ -37,8 +39,7 @@
                         <div class="input-single">
                             <textarea id="note-textarea" placeholder="Press on OK Google/Alexa" rows="1"></textarea>
                         </div>         
-                        <button id="start-record-btn" title="Start Recording">OK Google / Alexa</button>
-                        <button id="pause-record-btn" title="Pause Recording">Command Over</button>
+                        <button id="start-record-btn" title="Start Recording" onclick="document.getElementById('note-textarea').value = ''" style="background-color: #3f89ff;width: 200px; font-size: 20px;height: 40px;text-align: center;color: white;"><strong>OK Google / Alexa</strong></button>
                 
                         <p id="recording-instructions">Press the <strong>OK Google / Alexa</strong> button and allow access.</p>
                 
@@ -47,7 +48,7 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <img style="margin-left:auto;margin-right:auto;display:block;margin-top:50px;margin-bottom:auto;"src="https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/productfront.png" id="bulbPhoto" style:"max-width:100%;height:auto;width:285px;">
+                <img style="margin-left:100px;margin-top:100px;"src="https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/productfront.png" id="bulbPhoto" style:"max-width:100%;height:auto;width:285px;">
             </div>
         </div>
   
