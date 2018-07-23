@@ -65,10 +65,10 @@ preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.i
 	if(transcript.includes("yellow"))
 		$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/leftback.png");
 	if(transcript.includes("turn on"))
-	   	$("#bulbPhoto").attr("src","https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAwMi83NTkvb3JpZ2luYWwvMDgxMjA5LWxpZ2h0LWJ1bGItMDIuanBn");
+	   	$("#bulbPhoto").attr("src","https://www.wunderstore.co.uk/images/Sylvania/Sylvania-Sylvania-23870-Incandescant-Vintage-Full-Instant-Light,-Glass,-B22,-60-W-1304012737.jpg");
 
 	if(transcript.includes("switch on"))
-	   $("#bulbPhoto").attr("src","https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAwMi83NTkvb3JpZ2luYWwvMDgxMjA5LWxpZ2h0LWJ1bGItMDIuanBn");
+	   $("#bulbPhoto").attr("src","https://www.wunderstore.co.uk/images/Sylvania/Sylvania-Sylvania-23870-Incandescant-Vintage-Full-Instant-Light,-Glass,-B22,-60-W-1304012737.jpg");
 	if(transcript.includes("turn off"))
 	   $("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/productfront.png");
 
