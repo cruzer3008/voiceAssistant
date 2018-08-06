@@ -62,23 +62,23 @@ preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.i
     noteTextarea.val(noteContent);
   }
 	if(transcript.includes("red"))
-	$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/redBulb.png");
+	$("#bulbPhoto").attr("src","images\red.jpg");
 	if(transcript.includes("blue"))
-		$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/rightback.png");
+		$("#bulbPhoto").attr("src","images\blue.jpg");
 	if(transcript.includes("green"))
-		$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/greenBulb.png");
-	if(transcript.includes("yellow"))
-		$("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/leftback.png");
+		$("#bulbPhoto").attr("src","images\green.jpg");
+	if(transcript.includes("orange"))
+		$("#bulbPhoto").attr("src","images\orange.jpg");
 	if(transcript.includes("turn on"))
-	   	$("#bulbPhoto").attr("src","https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAwMi83NTkvb3JpZ2luYWwvMDgxMjA5LWxpZ2h0LWJ1bGItMDIuanBn");
+	   	$("#bulbPhoto").attr("src","images\white.jpg");
   if(transcript.includes("switch on"))
-	   $("#bulbPhoto").attr("src","https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzAwMi83NTkvb3JpZ2luYWwvMDgxMjA5LWxpZ2h0LWJ1bGItMDIuanBn");
+	   $("#bulbPhoto").attr("src","images\white.jpg");
 	if(transcript.includes("turn off"))
-	   $("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/productfront.png");
+	   $("#bulbPhoto").attr("src","images\off.jpg");
   if(transcript.includes("switch off"))
-	   $("#bulbPhoto").attr("src","https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/images/productfront.png");
+	   $("#bulbPhoto").attr("src","images\off.jpg");
 	if(transcript.includes("dim"))
-	   alert("Dimmed");
+	    $("#bulbPhoto").attr("opacity","0.7");
 	
 };
 
