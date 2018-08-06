@@ -62,21 +62,21 @@ preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.i
     noteTextarea.val(noteContent);
   }
 	if(transcript.includes("red"))
-	$("#bulbPhoto").attr("src","images\red.jpg");
+	$("#bulbPhoto").attr("src","images/red.jpg");
 	if(transcript.includes("blue"))
-		$("#bulbPhoto").attr("src","images\blue.jpg");
+		$("#bulbPhoto").attr("src","images/blue.jpg");
 	if(transcript.includes("green"))
-		$("#bulbPhoto").attr("src","images\green.jpg");
+		$("#bulbPhoto").attr("src","images/green.jpg");
 	if(transcript.includes("orange"))
-		$("#bulbPhoto").attr("src","images\orange.jpg");
+		$("#bulbPhoto").attr("src","images/orange.jpg");
 	if(transcript.includes("turn on"))
-	   	$("#bulbPhoto").attr("src","images\white.jpg");
+	   	$("#bulbPhoto").attr("src","images/white.jpg");
   if(transcript.includes("switch on"))
-	   $("#bulbPhoto").attr("src","images\white.jpg");
+	   $("#bulbPhoto").attr("src","images/white.jpg");
 	if(transcript.includes("turn off"))
-	   $("#bulbPhoto").attr("src","images\off.jpg");
+	   $("#bulbPhoto").attr("src","images/off.jpg");
   if(transcript.includes("switch off"))
-	   $("#bulbPhoto").attr("src","images\off.jpg");
+	   $("#bulbPhoto").attr("src","images/off.jpg");
 	if(transcript.includes("dim"))
 	    $("#bulbPhoto").attr("opacity","0.7");
 	
