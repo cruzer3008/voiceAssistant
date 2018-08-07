@@ -122,12 +122,12 @@ $("start-record-btn").click(function(){
     $("#bulbPhoto").attr("src","images/white.jpg");
     }).fadeIn(500);
   }
-  if(transcript.includes("of"))
-  {
-    $("#bulbPhoto").fadeOut(500, function() {
-    $("#bulbPhoto").attr("src","images/off.jpg");
-    }).fadeIn(500);
-  }
+  // if(transcript.includes("of"))
+  // {
+  //   $("#bulbPhoto").fadeOut(500, function() {
+  //   $("#bulbPhoto").attr("src","images/off.jpg");
+  //   }).fadeIn(500);
+  // }
   
 	
 };
