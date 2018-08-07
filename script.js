@@ -51,34 +51,84 @@ function preloadImage(url)
     img.src=url;
 }
 function clearTranscript(){
-	noteContent = "";
+	noteContent = " ";
 }
-	
-	
-preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/rightback.png");
-preloadImage("https://raw.githubusercontent.com/QwertyWorks/qwertyworks.github.io/master/Interns/js/images/leftback.png");
+
+$("start-record-btn").click(function(){
+  
+});
+
   if(!mobileRepeatBug) {
     noteContent += transcript;
     noteTextarea.val(noteContent);
   }
 	if(transcript.includes("red"))
-	$("#bulbPhoto").attr("src","images/red.jpg");
-	if(transcript.includes("blue"))
-		$("#bulbPhoto").attr("src","images/blue.jpg");
-	if(transcript.includes("green"))
-		$("#bulbPhoto").attr("src","images/green.jpg");
-	if(transcript.includes("orange"))
-		$("#bulbPhoto").attr("src","images/orange.jpg");
-	if(transcript.includes("turn on"))
-	   	$("#bulbPhoto").attr("src","images/white.jpg");
-  if(transcript.includes("switch on"))
-	   $("#bulbPhoto").attr("src","images/white.jpg");
-	if(transcript.includes("turn off"))
-	   $("#bulbPhoto").attr("src","images/off.jpg");
+  {
+    $("#bulbPhoto").fadeOut(500, function() {
+    $("#bulbPhoto").attr("src","images/red.jpg");
+    }).fadeIn(500);
+  }
+  if(transcript.includes("blue"))
+  {
+    $("#bulbPhoto").fadeOut(500, function() {
+    $("#bulbPhoto").attr("src","images/blue.jpg");
+    }).fadeIn(500);
+  }
+  if(transcript.includes("green"))
+  {
+    $("#bulbPhoto").fadeOut(500, function() {
+    $("#bulbPhoto").attr("src","images/green.jpg");
+    }).fadeIn(500);
+  }
+  if(transcript.includes("purple"))
+  {
+    $("#bulbPhoto").fadeOut(500, function() {
+    $("#bulbPhoto").attr("src","images/purple.jpg");
+    }).fadeIn(500);
+  }
+  if(transcript.includes("orange"))
+  {
+    $("#bulbPhoto").fadeOut(500, function() {
+    $("#bulbPhoto").attr("src","images/orange.jpg");
+    }).fadeIn(500);
+  }
+  if(transcript.includes("white"))
+  {
+    $("#bulbPhoto").fadeOut(500, function() {
+    $("#bulbPhoto").attr("src","images/white.jpg");
+    }).fadeIn(500);
+  }
+  if(transcript.includes("turn off"))
+  {
+    $("#bulbPhoto").fadeOut(500, function() {
+    $("#bulbPhoto").attr("src","images/off.jpg");
+    }).fadeIn(500);
+  }
   if(transcript.includes("switch off"))
-	   $("#bulbPhoto").attr("src","images/off.jpg");
-	if(transcript.includes("dim"))
-	    $("#bulbPhoto").attr("opacity","0.7");
+  {
+    $("#bulbPhoto").fadeOut(500, function() {
+    $("#bulbPhoto").attr("src","images/off.jpg");
+    }).fadeIn(500);
+  }
+  if(transcript.includes("switch on"))
+  {
+    $("#bulbPhoto").fadeOut(500, function() {
+    $("#bulbPhoto").attr("src","images/white.jpg");
+    }).fadeIn(500);
+  }
+  if(transcript.includes("turn on"))
+  {
+    $("#bulbPhoto").fadeOut(500, function() {
+    $("#bulbPhoto").attr("src","images/white.jpg");
+    }).fadeIn(500);
+  }
+  if(transcript.includes("of"))
+  {
+    $("#bulbPhoto").fadeOut(500, function() {
+    $("#bulbPhoto").attr("src","images/off.jpg");
+    }).fadeIn(500);
+  }
+  
 	
 };
 
